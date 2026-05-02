@@ -1,0 +1,16 @@
+# Ignore Docker volumes and database data
+postgres_data/
+kafka_data/
+zookeeper_data/
+spark_data/
+grafana_data/
+
+# Ignore Python virtual environments and cache
+__pycache__/
+venv/
+env/
+.env
+
+# Ignore OS generated files
+.DS_Store
+checkpoint_dir/
